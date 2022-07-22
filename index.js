@@ -1,15 +1,15 @@
 const ADDButton = document.querySelector('.header-eventBtn')
 
 const formAdd = document.querySelector('.classDisplay')
-const formSubmitBtn = document.querySelector('.formSubmitBtn')
+const formSubmitBtn = document.querySelector('#formSubmitBtn')
 
 
 // form inputs
-const titleVAlue = document.getElementById('title')
+const TitleValue = document.getElementById('titleValue')
 
-const aurthurValue =  document.getElementById('aurthurValue')
-const pagesValue = document.getElementById('pagesValue')
-const readValue =  document.getElementById('readValue')
+const AurthurValue =  document.getElementById('aurthurValue')
+const PagesValue = document.getElementById('pagesValue')
+const ReadValue =  document.getElementById('readValue')
 // form inputs
 
 
@@ -23,24 +23,28 @@ const myLibrary = []
 // submit button functionality
 formSubmitBtn.addEventListener('click', function(e){
     e.preventDefault()
-    console.log(titleVAlue.value)
+    const title = (AurthurValue.value)
+    const authur = (TitleValue.value)
+    const pages = (PagesValue.value)
+    const read = (ReadValue.value)
    
-    const title =document.querySelector('.titleValue').value
-    const aurthur = aurthurValue.value
-    const pages = pagesValue.value
-    const read = readValue.value
-
-    const newitem = {
+    
+    const newBook = {
+       id:myLibrary.length +1,
         title,
-        // aurthur,
-        // pages,
-        // read
-    } 
+        authur,
+        pages,
+        read
 
-    myLibrary.push(newitem)
+    }
 
+    myLibrary.push(newBook)
+    
+   
+    
+
+  console.log(myLibrary)
 })
 
-console.log(myLibrary)
 
 
