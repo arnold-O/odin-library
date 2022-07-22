@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header sections */
+.headerSection{
+    width: 100%;
+    background-color: rgb(248, 219, 219);
+    height: 50px;
+
+}
+.headerItems{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.header-btn{
+    padding: .5rem .875rem;
+    background-color: #fff;
+    border: 1px solid rgb(161, 236, 161);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background-color:rgb(161, 236, 161);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
+/* header sections */
+
+    .wrapperontainer{
+        width: 100%;
+    
+    }
+.projectCard{
+    width: 60%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: grey;
+    text-align: center;
+    padding-bottom: .875rem;
+    padding-top:.875rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+label{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: .7rem;
+}
+
+
+
+
+
+.inputBlock{
+    display: block;
+    margin: 0 auto;
+    padding: .575rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.eachItem{
+    margin-bottom: 1.5rem;
+}
+
+.lastChid{
+    margin-bottom: 15px;
+}
+
+
+/* classlist side */
+
+.classDisplay{
+    display: none;
+}
+/* classlist side */
