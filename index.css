@@ -117,6 +117,7 @@ label{
 }
 .containerMap{
     display: grid;
+
     grid-template-columns: repeat(6, 1fr);
     justify-content: space-between;
     align-items: center;
@@ -140,3 +141,14 @@ label{
 
 }
 /* table section */
+
+
+
+@media (max-width:300px){
+     .containerMap{
+       width: 90%;
+    
+    }
+    
+
+}
