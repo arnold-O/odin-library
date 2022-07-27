@@ -87,3 +87,56 @@ label{
     display: none;
 }
 /* classlist side */
+
+
+
+
+
+
+/* dispaly input */
+
+.input-display{
+    width: 700px;
+    margin: 0 auto
+}
+/* dispaly input */
+
+
+
+/* table section */
+.tableOfContent{
+  
+    display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   justify-content: space-between;
+   align-items: center;
+    padding-left: 5px;
+    margin-top: 30px;
+    background-color: grey;
+    height: 1.5rem;
+}
+.containerMap{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    align-items: center;
+     padding-left: 5px;
+     margin-top: 30px;
+     background-color: grey;
+     height: 1.5rem;
+     margin-bottom: 12px;
+
+}
+.tableOfContent button{
+    background-color: rgb(236, 104, 104);
+    border: 1px solid #fff;
+    padding: .1rem .875rem;
+    border-radius: 5px;
+    width: 70px;
+}
+
+.el-0ne{
+    justify-self: center;
+
+}
+/* table section */
